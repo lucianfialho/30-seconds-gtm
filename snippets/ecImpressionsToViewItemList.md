@@ -1,28 +1,12 @@
-Convert a Google Analytics Enhanced Commerce impressions action to Google Analytics 4 view_item_list event object.
+Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 `view_item_list` event object, see the Google Tag Manager [guide](https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#product-impressions). 
 
-```html
-    <script>
-        // See more in: https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#product-impressions
-        dataLayer.push({
-            'ecommerce': {
-                'currencyCode': 'EUR',
-                'impressions': [{
-                    'name': 'Triblend Android T-Shirt',
-                    'id': '12345',
-                    'price': '15.25',
-                    'brand': 'Google',
-                    'category': 'Apparel',
-                    'variant': 'Gray',
-                    'list': 'Search Results',
-                    'position': 1
-                }]
-            }
-        });
-    </script>
-```
+> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
+
+- Return a ecommerce object with GA4 pattern
+- Create a items key
+- Use `Array.prototype.map()` to return a array of objects;
 
 
-You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
 
 ```javascript
     function() {

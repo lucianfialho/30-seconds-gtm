@@ -1,5 +1,9 @@
 Create a Google Analytics object with trackingId: clientId (key:value).
 
+- Prevent error using `try...catch` statement
+- Get global Google Analytics instances `ga.getAll()`; 
+- Use `Array.prototype.reduce()` to a array of objects with `{trackingId: clientId}  format;
+
 ```javascript
 function() {
   try {
