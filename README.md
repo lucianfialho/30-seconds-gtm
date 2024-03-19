@@ -7,7 +7,8 @@ Inspired by the [30 seconds code](https://github.com/30-seconds/30-seconds-of-co
 See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/snippets) to get all scripts or read 1:1 script;
 
 - [Convert Google Analytics 4 `items` `array` in Facebook `contents` pattern](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4ItemsToFacebookPixelContents.md);
-- [Get Google Analytics client_id and session_id](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/getGa4ClientIdAndSessionId.md);
+- [Convert Google Analytics 4 `view_item` event parameter in Facebook `viewContent` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertViewItemGa4ToViewContentFacebook.md);
+- [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/getGa4ClientIdAndSessionId.md);
 
 ## To contribute
 

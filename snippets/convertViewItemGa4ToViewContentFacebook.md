@@ -1,6 +1,6 @@
-The snippet converts Google Analytics 4 (GA4) data to Facebook Pixel format, enabling tracking of item view events (like GA4's view_item to Facebook Pixel's ViewContent).
+The snippet converts Google Analytics 4 (GA4) `view_item` event data to `viewContent` event data for Facebook Pixel format.
 
-How it works:
+> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
 
 - Uses .map() to transform each item into a Facebook Pixel-compatible object.
 - Extracts and maps information such as product name, category, ID, and price.
