@@ -6,11 +6,12 @@ Inspired by the [30 seconds code](https://github.com/30-seconds/30-seconds-of-co
 
 See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/snippets) to get all scripts or read 1:1 script;
 
-- [Convert Google Analytics 4 `items` `array` in Facebook `contents` pattern](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4ItemsToFacebookPixelContents.md);
-- [Convert Google Analytics 4 `view_item` event parameter in Facebook `viewContent` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertViewItemGa4ToViewContentFacebook.md);
-- [Convert Google Analytics 4 `add_to_cart` event parameters in Faceboo `AddToCart` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4AddToCartToFacebookAddToCart.md)
-- [Convert Google Analytics 4 `purchase` event parameters in Facebook `Purchase` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4PurchaseToFacebookPurchase.md)
-- [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/getGa4ClientIdAndSessionId.md);
+- [Convert Google Analytics 4 `items` `array` in Facebook `contents` pattern](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/convertGa4ItemsToFacebookPixelContents.md);
+- [Convert Google Analytics 4 `view_item` event parameter in Facebook `viewContent` parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/convertViewItemGa4ToViewContentFacebook.md);
+- [Convert Google Analytics 4 `add_to_cart` event parameters in Facebook `AddToCart` parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/convertGa4AddToCartToFacebookAddToCart.md)
+- [Convert Google Analytics 4 `purchase` event parameters in Facebook `Purchase` parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/convertGa4PurchaseToFacebookPurchase.md)
+- [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getGa4ClientIdAndSessionId.md);
+- [Get Device type based on userAgent](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getDeviceType.md)
 
 ## To contribute
 

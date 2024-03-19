@@ -1,6 +1,6 @@
 The snippet converts Google Analytics 4 (GA4) `add_to_cart` event data to `AddToCart` event data for Facebook Pixel format.
 
-> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
+> You have must be created `{{{ecommerce}}}` dataLayer variable on Google Tag Manager copy code below.
 
 - Collect and prepare data: Extract relevant information from the GA4 event, such as product IDs, names, quantities, and prices.
 - Map to Facebook Pixel format: Use JavaScript to transform the GA4 data into the format required by the Facebook Pixel AddToCart event.
@@ -11,15 +11,15 @@ The snippet converts Google Analytics 4 (GA4) `add_to_cart` event data to `AddTo
 ```js
 function () {
   return {
-    content_ids: {ecommerce}.items.map(item => item.item_id),
+    content_ids: {}.items.map(item => item.item_id),
     content_type: 'product',
-    contents: {ecommerce}.items.map(item => ({
+    contents: {{ecommerce}}.items.map(item => ({
       id: item.item_id,
       quantity: item.quantity,
       item_price: item.price,
     })),
-    currency: {ecommerce}.currency,
-    value: {ecommerce}.value,
+    currency: {{ecommerce}}.currency,
+    value: {{ecommerce}}.value,
   };
 }
 ```
