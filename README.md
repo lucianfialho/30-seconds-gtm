@@ -8,6 +8,7 @@ See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/
 
 - [Convert Google Analytics 4 `items` `array` in Facebook `contents` pattern](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4ItemsToFacebookPixelContents.md);
 - [Convert Google Analytics 4 `view_item` event parameter in Facebook `viewContent` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertViewItemGa4ToViewContentFacebook.md);
+- [Convert Google Analytics 4 `add_to_cart` event parameter in Faceboo `AddToCart` parameters](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/convertGa4AddToCartToFacebookAddToCart.md)
 - [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/getGa4ClientIdAndSessionId.md);
 
 ## To contribute
