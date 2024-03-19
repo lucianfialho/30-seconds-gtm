@@ -12,6 +12,7 @@ See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/
 - [Convert Google Analytics 4 `purchase` event parameters in Facebook `Purchase` parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/convertGa4PurchaseToFacebookPurchase.md)
 - [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getGa4ClientIdAndSessionId.md);
 - [Get Device type based on userAgent](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getDeviceType.md)
+- [Check if browser has ad blocker activate](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/checkAdBlockerPresence.md)
 
 ## To contribute
 
