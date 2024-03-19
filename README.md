@@ -27,3 +27,9 @@ See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/
 ## To contribute
 
 Use the [snippet template](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/snippet-template.md) as a reference and create in snippets folder.
+
+## Contribuidores
+
+<a href="https://github.com/lucianfialho/30-seconds-gtm/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=lucianfialho/30-seconds-gtm&max=500" alt="Lista de contribuidores" width="100%"/>
+</a>
