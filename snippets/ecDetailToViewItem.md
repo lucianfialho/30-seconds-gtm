@@ -1,3 +1,5 @@
+--- DEPRECATED Google Analytics Universal Analytics are not colleting information since july 2023
+
 Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 `view_item` event object, see the Google Tag Manager [guide](https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#details).
 
 > You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
