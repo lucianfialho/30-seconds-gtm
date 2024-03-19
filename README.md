@@ -14,6 +14,16 @@ See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/
 - [Get Device type based on userAgent](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getDeviceType.md)
 - [Check if browser has ad blocker activate](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/checkAdBlockerPresence.md)
 
+## Universal Analytics (legacy)
+
+--- DEPRECATED Google Analytics Universal Analytics are not colleting information since july 2023
+
+- [Convert Google Analytics Enhanced Ecommerce data to Google Analytics 4 `add_to_cart` event parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/ecAddToCartToAddToCart.md)
+- [Convert Google Analytics Enhanced Ecommerce data to Google Analytics 4 `view_item` event parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/ecDetailToViewItem.md)
+- [Convert Google Analytics Enhanced Ecommerce data to Google Analytics 4 `view_item_list` event parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/ecImpressionsToViewItemList.md)
+- [Convert Google Analytics Enhanced Ecommerce data to Google Analytics 4 `select_item` event parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/ecProductClickToSelectItem.md)
+- [Convert Google Analytics Enhanced Ecommerce data to Google Analytics 4 `remove_from_cart` event parameters](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/ecRemoveFromCartToRemoveFromCart.md)
+
 ## To contribute
 
 Use the [snippet template](https://github.com/lucianfialhobp/30-seconds-gtm/tree/main/snippet-template.md) as a reference and create in snippets folder.
