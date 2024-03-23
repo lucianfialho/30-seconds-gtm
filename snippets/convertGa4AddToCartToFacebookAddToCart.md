@@ -23,8 +23,8 @@ function() {
         item_price: item.price
       };
     }),
-    currency: ecommerce.currency,
-    value: ecommerce.value
+    currency: {{ecommerce}}.currency,
+    value: {{ecommerce}}.value
   };
 }
 
