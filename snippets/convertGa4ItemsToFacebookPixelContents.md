@@ -7,12 +7,14 @@ Convert a Google Analytics `items` or `ecommerce.items` in `contents` param to F
 
 ```javascript
     function() {
-        return {{ecommerce}}.items.map(product => ({
-            id: product.item_id,
-            quantity: product.quantity
-        }));
-
+        return ecommerce.items.map(function(product) {
+            return {
+                id: product.item_id,
+                quantity: product.quantity
+            };
+        });
     }
+
 ```
 
 ```js

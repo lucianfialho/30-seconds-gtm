@@ -9,20 +9,24 @@ The snippet converts Google Analytics 4 (GA4) `purchase` event data to `Purchase
   - Other operations might include filtering or reducing data, depending on the complexity of the transformation required.
 
 ```js
-function () {
+function() {
+  var items = {{ecommerce}}.items;
   return {
-    content_ids: {{ecommerce}}.items.map(item => item.item_id),
+    content_ids: ecommerce.items.map(function(item) {
+      return item.item_id;
+    }),
     content_type: 'product',
-    contents: {{ecommerce}}.items.map(item => ({
-      id: item.item_id,
-      quantity: item.quantity,
-      item_price: item.price,
-    })),
-    currency: {{ecommerce}}.currency,
-    value: {{ecommerce}}.value,
+    contents: ecommerce.items.map(function(item) {
+      return {
+        id: item.item_id,
+        quantity: item.quantity,
+        item_price: item.price
+      };
+    }),
+    currency: ecommerce.currency,
+    value: ecommerce.value
   };
 }
-
 ```
 
 ```js

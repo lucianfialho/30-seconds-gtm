@@ -9,19 +9,25 @@ The snippet converts Google Analytics 4 (GA4) `add_to_cart` event data to `AddTo
   - Other operations might include filtering or reducing data, depending on the complexity of the transformation required.
 
 ```js
-function () {
+function() {
+  var items = {{ecommerce}}.items;
   return {
-    content_ids: {}.items.map(item => item.item_id),
+    content_ids: items.map(function(item) {
+      return item.item_id;
+    }),
     content_type: 'product',
-    contents: {{ecommerce}}.items.map(item => ({
-      id: item.item_id,
-      quantity: item.quantity,
-      item_price: item.price,
-    })),
-    currency: {{ecommerce}}.currency,
-    value: {{ecommerce}}.value,
+    contents: items.map(function(item) {
+      return {
+        id: item.item_id,
+        quantity: item.quantity,
+        item_price: item.price
+      };
+    }),
+    currency: ecommerce.currency,
+    value: ecommerce.value
   };
 }
+
 ```
 
 ```js
