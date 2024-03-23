@@ -12,19 +12,19 @@ The snippet converts Google Analytics 4 (GA4) `purchase` event data to `Purchase
 function() {
   var items = {{ecommerce}}.items;
   return {
-    content_ids: ecommerce.items.map(function(item) {
+    content_ids: items.map(function(item) {
       return item.item_id;
     }),
     content_type: 'product',
-    contents: ecommerce.items.map(function(item) {
+    contents: items.map(function(item) {
       return {
         id: item.item_id,
         quantity: item.quantity,
         item_price: item.price
       };
     }),
-    currency: ecommerce.currency,
-    value: ecommerce.value
+    currency: {{ecommerce}}.currency,
+    value: {{ecommerce}}.value
   };
 }
 ```
