@@ -13,6 +13,7 @@ See the snippets [folder](https://github.com/lucianfialhobp/30-seconds-gtm/tree/
 - [Get Google Analytics `client_id` and `session_id`](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getGa4ClientIdAndSessionId.md);
 - [Get Device type based on userAgent](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getDeviceType.md)
 - [Check if browser has ad blocker activate](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/checkAdBlockerPresence.md)
+- [Captures and converts the data from a submitted form into a javascript object](https://github.com/lucianfialho/30-seconds-gtm/blob/main/snippets/getFormDataOnFormSubmit.md)
 
 ## Universal Analytics (legacy)
 
