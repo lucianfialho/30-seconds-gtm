@@ -1,6 +1,6 @@
 Convert a list of items from a `WooCommerce` event into the recommended format for `Google Analytics 4 (GA4)` using a custom JavaScript function in `Google Tag Manager`. The provided code snippet processes the `items` array, which originates from an `ecommerce` event, mapping each item to a new format that aligns with `GA4's e-commerce data model` requirements. This transformation ensures compatibility with `GA4's enhanced e-commerce` tracking features.
 
-> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
+> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager.
 
 - Return `items` list with a recomended GA4 pattern.  
 
