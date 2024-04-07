@@ -4,7 +4,7 @@ Convert a list of items from a `WooCommerce` event into the recommended format f
 
 - Return `items` list with a recomended GA4 pattern.  
 
-> Remember to check if the event parameters match the structure we prepared. Parameters may change due to WooCommerce updates.
+* Remember to check if the event parameters match the structure we prepared. Parameters may change due to WooCommerce updates.
 
 ```js
 function() {
