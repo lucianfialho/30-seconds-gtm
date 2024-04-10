@@ -1,3 +1,5 @@
+--- DEPRECATED Google Analytics Universal Analytics are not colleting information since july 2023
+
 Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 `remove_from_cart` event object, see the Google Tag Manager [guide](https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#cart). You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
 
 > You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
@@ -12,7 +14,7 @@ Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 
             ecommerce: {
                 items: {{ecommerce}}.remove.products.map(function(product){
                     return {
-                        item_name: product.name,    
+                        item_name: product.name,
                         item_id: product.id,
                         price: product.price,
                         item_brand: product.brand,
@@ -25,6 +27,7 @@ Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 
         }
     }
 ```
+
 ```js
 /* output: 
 {

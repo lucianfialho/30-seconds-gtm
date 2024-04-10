@@ -1,6 +1,6 @@
-The snippet converts Google Analytics 4 (GA4) `purchase` event data to `Purchase` event data for Facebook Pixel format.
+The snippet converts Google Analytics 4 (GA4) `begin_checkout` event data to `InitiateCheckout` event data for Facebook Pixel format.
 
-> You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
+> You have must be created `ecommerce` dataLayer variable on Google Tag Manager copy code below.
 
 - Collect and prepare data: Extract relevant information from the GA4 event, such as product IDs, names, quantities, and prices.
 - Map to Facebook Pixel format: Use JavaScript to transform the GA4 data into the format required by the Facebook Pixel Purchase event.

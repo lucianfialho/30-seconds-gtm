@@ -1,4 +1,6 @@
-Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 `view_item_list` event object, see the Google Tag Manager [guide](https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#product-impressions). 
+--- DEPRECATED Google Analytics Universal Analytics are not colleting information since july 2023
+
+Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 `view_item_list` event object, see the Google Tag Manager [guide](https://developers.google.com/tag-manager/enhanced-ecommerce?hl=pt_br#product-impressions).
 
 > You have must be created `{{ecommerce}}` dataLayer variable on Google Tag Manager copy code below.
 
@@ -6,15 +8,13 @@ Convert a Google Analytics Enhanced Commerce click action to Google Analytics 4 
 - Create a items key
 - Use `Array.prototype.map()` to return a array of objects;
 
-
-
 ```javascript
     function() {
         return {
             ecommerce: {
                 items: {{ecommerce}}.impressions.map(function(product){
                     return {
-                        item_name: product.name,    
+                        item_name: product.name,
                         item_id: product.id,
                         price: product.price,
                         item_brand: product.brand,

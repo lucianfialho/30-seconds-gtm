@@ -13,15 +13,18 @@ function () {
     content_category: {{ecommerce}}.items[0].item_category,
     content_type: "product",
     content_ids: [{{ecommerce}}.items[0].item_id],
-    contents: {{ecommerce}}.items.map((item) => ({
-      id: item.item_id,
-      quantity: item.quantity,
-      item_price: item.price,
-    })),
+    contents: {{ecommerce}}.items.map(function(item) {
+      return {
+        id: item.item_id,
+        quantity: item.quantity,
+        item_price: item.price
+      };
+    }),
     currency: {{ecommerce}}.currency,
-    value: {{ecommerce}}.value,
+    value: {{ecommerce}}.value
   };
 }
+
 ```
 
 ```js
