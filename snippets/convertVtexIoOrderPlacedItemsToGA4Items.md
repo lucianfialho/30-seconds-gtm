@@ -23,7 +23,7 @@ function () {
 ```
 
 ```js
-/*
+// output:
 [
   {
     "item_id": "101",
@@ -35,5 +35,4 @@ function () {
     "quantity": 1
   }
 ]
-*/
 ```

@@ -22,26 +22,23 @@ function() {
 ```
 
 ```js
-/* output: 
-{
-  "items": [
-    {
-      "item_id": "001",
-      "price": "19.99",
-      "quantity": "2",
-      "item_name": "Graphic Tee",
-      "item_variant": "Medium",
-      "item_category": "T-shirts"
-    },
-    {
-      "item_id": "002",
-      "price": "29.99",
-      "quantity": "1",
-      "item_name": "Hoodie",
-      "item_variant": "Large",
-      "item_category": "Outerwear"
-    }
-  ]
-}
-*/
+// output: 
+[
+  {
+    "item_id": "001",
+    "price": "19.99",
+    "quantity": "2",
+    "item_name": "Graphic Tee",
+    "item_variant": "Medium",
+    "item_category": "T-shirts"
+  },
+  {
+    "item_id": "002",
+    "price": "29.99",
+    "quantity": "1",
+    "item_name": "Hoodie",
+    "item_variant": "Large",
+    "item_category": "Outerwear"
+  }
+]
 ```
